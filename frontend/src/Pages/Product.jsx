@@ -83,7 +83,7 @@ const Product = () => {
         </div>
         <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
           <p>Our e-commerce app brings thousands of products at your fingertips. From trendy fashion and electronics to home essentials and beauty, shop everything you need with secure checkout and fast delivery.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laudantium incidunt quis sit voluptatum corrupti at cupiditate dolorem, alias molestiae sed voluptates nesciunt ipsa, asperiores atque eveniet laboriosam distinctio esse.</p>
+          <p>Our e-commerce app brings thousands of products at your fingertips. From trendy fashion and electronics to home essentials and beauty, shop everything you need with secure checkout and fast delivery.</p>
         </div>
       </div>
 
