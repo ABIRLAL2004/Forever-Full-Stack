@@ -35,7 +35,14 @@ app.use('/api/order', orderRouter)
 app.get('/', (req, res) => {
   res.send("API Working");
 });
+app.get('/',(req,res)=>{
+  res.send({
+    activeStatus:true,
+    error:false,
+  })
+})
 
 app.listen(PORT, () => {
   console.log(`🚀 Server started on PORT : ${PORT}`);
 });
+ 
