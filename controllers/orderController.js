@@ -1,6 +1,6 @@
 import { response } from "express";
 import orderModel from "../models/oderModel.js";
-import userModel from "../models/userModel.js";
+import userModel from "../models/usermodel.js";
 
 // Place order using COD
 // export const placeOrder = async (req, res) => {

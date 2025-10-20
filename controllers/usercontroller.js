@@ -1,7 +1,9 @@
 import validator from "validator";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import userModel from "../models/userModel.js";
+// import userModel from "../models/usermodel.js";
+import userModel from "../models/usermodel.js";
+
 
 const createToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: "id" }); // optional expiry
