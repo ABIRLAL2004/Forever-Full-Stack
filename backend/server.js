@@ -19,7 +19,7 @@ app.use(express.json());
 // Enable CORS ✅ (place this before routes)
 app.use(cors());
 
-const PORT = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;
 
 // connect database
 connectDB();
